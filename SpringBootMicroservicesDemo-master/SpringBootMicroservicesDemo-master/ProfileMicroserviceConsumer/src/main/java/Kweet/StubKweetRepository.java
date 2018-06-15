@@ -11,11 +11,11 @@ public class StubKweetRepository implements KweetRepository {
     private List<Kweat> kweats = new ArrayList<>();
 
     public StubKweetRepository() {
-        Kweat kweat = new Kweat("1000", "Hallo testbericht123", "1000");
+        Kweat kweat = new Kweat("1", "Hallo testbericht123", "1000");
         kweats.add(kweat);
-        kweat = new Kweat("2000", "Bananen zijn geel", "1000");
+        kweat = new Kweat("2", "Bananen zijn geel", "1000");
         kweats.add(kweat);
-        kweat = new Kweat("3000", "Appels zijn rond", "2000");
+        kweat = new Kweat("3", "Appels zijn rond", "2000");
         kweats.add(kweat);
     }
 

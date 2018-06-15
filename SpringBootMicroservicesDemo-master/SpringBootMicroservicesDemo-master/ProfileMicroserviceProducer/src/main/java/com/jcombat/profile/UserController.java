@@ -14,14 +14,14 @@ public class UserController {
     @Autowired
     UserRepository userRepository;
 
-    @CrossOrigin(origins = "http://localhost:2222")
+    @CrossOrigin//(origins = "http://localhost:2222")
     @RequestMapping("/users")
     public User[] all() {
         List<User> users = userRepository.getAllUsers();
         return users.toArray(new User[users.size()]);
     }
 
-    @CrossOrigin(origins = "http://localhost:2222")
+    @CrossOrigin//(origins = "http://localhost:2222")
     @RequestMapping("/user/{name}/{password}")
     public User byId(@PathVariable("name") String userName,
                      @PathVariable("password") String password)  {

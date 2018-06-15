@@ -29,7 +29,7 @@ public class  StubUserRepository implements UserRepository {
     public User getUser(String userId) {
         for (User u : users)
         {
-            if (u.getUserId().equals(userId))
+            if (u.getUserID().equals(userId))
             {
                 return u;
             }

@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    private String userId;
+    private String userID;
     private String name;
 
     public String getPassword() {
@@ -18,11 +18,11 @@ public class User implements Serializable {
 
     private String password;
 
-    public String getUserId() {
-        return userId;
+    public String getUserID() {
+        return userID;
     }
-    public void setUserId(String userId) {
-        this.userId = userId;
+    public void setUserID(String userId) {
+        this.userID = userID;
     }
     public String getName() {
         return name;
@@ -33,16 +33,16 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "Profile [userId=" + userId + ", name=" + name + ", password=" + password +"]";
+        return "Profile [userID=" + userID + ", name=" + name + ", password=" + password +"]";
     }
 
     public User() {
         // TODO Auto-generated constructor stub
     }
 
-    public User(String userId, String name, String password) {
+    public User(String userID, String name, String password) {
         super();
-        this.userId = userId;
+        this.userID = userID;
         this.name = name;
         this.password = password;
     }
