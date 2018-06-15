@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringBootMicroservicesDemo-master/ProfileMicroserviceConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMicroservicesDemo-master/ProfileMicroserviceProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMicroservicesDemo-master/MicroserviceDiscoveryServer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMicroservicesDemo-master/ProfileMicroserviceSomething/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
